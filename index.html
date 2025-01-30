@@ -33,8 +33,10 @@
   <body>
     <!-- header -->
     <header class="bg-linear-to-b from-white to-secoundry">
-      <div class="container mx-auto mb-20 w-11/12">
-        <nav class="flex items-center justify-between mt-5">
+      <div class="container mx-auto w-11/12 overflow-hidden">
+        <nav
+          class="flex items-center lg:border-none border-b pb-3 border-primary justify-between mt-5"
+        >
           <div class="">
             <img
               class="hidden md:block"
@@ -91,21 +93,29 @@
         </nav>
         <!-- hero section -->
         <section
-          class="mt-16 w-10/12 mx-auto flex flex-col items-center justify-center"
+          class="mt-16 md:w-10/12 mx-auto flex flex-col items-center justify-center"
         >
           <div class="text-center space-y-5">
-            <h1 class="text-5xl font-semibold">
+            <h1
+              class="text-5xl font-semibold animate-bounce animate-infinite animate-duration-1000 animate-delay-1000"
+            >
               Freshness
               <span class="text-primary">You Can <br />Count</span> On, Prices
               You’ll Love!
             </h1>
-            <p class="text-lg">
+            <p
+              class="text-lg animate-pulse animate-infinite animate-duration-1000 animate-delay-1000"
+            >
               Shop your daily essentials at unbeatable prices. From fresh
               produce to pantry staples, we’ve got you covered every day!
             </p>
           </div>
           <div class="">
-            <img src="./assets/hero-vegetables.png" alt="" />
+            <img
+              class="w-full scale-x-120 md:scale-x-100"
+              src="./assets/hero-vegetables.png"
+              alt=""
+            />
           </div>
         </section>
       </div>
